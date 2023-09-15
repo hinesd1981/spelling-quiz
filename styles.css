@@ -1,10 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Quiz</title>
+    <style>
+        body {
+            font-family: 'Inconsolata', monospace;
+            text-align: center;
+            background-color: #f4f4f4;
+            font-size: 18px; /* Adjust font size as needed */
+        }
 
-button {
-    margin: 10px;
-    padding: 10px 20px;
-}
+        h1 {
+            font-size: 36px; /* Adjust font size as needed */
+            color: #333;
+        }
+
+        .question {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px; /* Adjust font size as needed */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #feedback {
+            color: green;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 24px; /* Adjust font size as needed */
+        }
+
+        #score {
+            margin-top: 10px;
+            font-size: 20px; /* Adjust font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Spelling Quiz</h1>
+    <p>This program is designed to help you with your spelling!!</p>
+    <div class="question">
+        Which spelling is correct?
+        <br>
+        <button id="option1" onclick="checkAnswer(0)"></button>
+        <button id="option2" onclick="checkAnswer(1)"></button>
+    </div>
+    <p id="feedback"></p>
+    <p id="score"></p>
+    <button onclick="startGame()">Next Question</button>
+    <button onclick="endGame()">End Game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
