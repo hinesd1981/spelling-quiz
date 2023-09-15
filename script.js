@@ -1,3 +1,4 @@
+console.log("Script is running!")
 const spellings = {
     'accommodate': ["acommodate", "accomodate"],
     'beginning': ["begining", "begginning"],
