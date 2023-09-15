@@ -1,4 +1,3 @@
-console.log("Script is running!")
 const spellings = {
     const spellings = {
     'accommodate': ["acommodate", "accomodate"],
