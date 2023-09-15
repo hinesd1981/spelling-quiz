@@ -30,7 +30,6 @@ const spellings = {
     'committed': ["commited", "comitted"],
     'conscience': ["conscince", "consciense"],
     'consistent': ["consistant", "consisdent"],
-    'definitely': ["definately", "definitly"],
     'existence': ["existance", "existense"],
     'foreign': ["foriegn", "foregn"],
     'grammar': ["grammer", "gramar"],
