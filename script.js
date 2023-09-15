@@ -130,7 +130,7 @@ function checkAnswer(index) {
     document.getElementById('score').textContent = `Current Score: ${correctAnswers} correct, ${incorrectAnswers} incorrect.`;
 
     // Add this line to load a new question after checking the answer
-    setTimeout(startGame, 5000);  // Wait for 1 second and then load the next question
+    setTimeout(startGame, 4000);  // Wait for 4 second and then load the next question
 }
 
 function endGame() {
