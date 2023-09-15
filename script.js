@@ -125,7 +125,7 @@ function checkAnswer(index) {
         document.getElementById('feedback').textContent = `That is incorrect. The correct spelling is ${correctWord}.`;
     }
 
-    document.getElementById('score').textContent = `Current Score: ${correctAnswers} correct, ${incorrectAnswers} incorrect.`;
+    // document.getElementById('score').textContent = `Current Score: ${correctAnswers} correct, ${incorrectAnswers} incorrect.`;
 
     // Add this line to load a new question after checking the answer
     setTimeout(startGame, 3000);  // Wait for 3 second and then load the next question
