@@ -74,7 +74,7 @@ const spellings = {
     'foreign': ["foriegn", "foregn"],
     'furniture': ["furnature", "furnitur"],
     'guarantee': ["garantee", "guarentee"],
-    'harass': ["harrass", "harass"],
+    'harass': ["harrass", "haras"],
     'height': ["hieght", "heighth"],
     'hierarchy': ["hierachy", "hierarcy"],
     'grammar': ["grammer", "gramar"],
